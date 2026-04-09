@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Build Kernel
-        uses: dabao1955/kernel_build_action@main
+        uses: mistrmochov/kernel_build_action@main
         with:
           kernel-url: https://github.com/mistrmochov/nothing_android_kernel_sm7325.git
           kernel-dir: false
