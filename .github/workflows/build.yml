@@ -15,16 +15,16 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/William24hmar/nothing_android_kernel_sm7325.git
+          kernel-url: https://github.com/mistrmochov/nothing_android_kernel_sm7325.git
           kernel-dir: false
-          kernel-branch: KSUN1
+          kernel-branch: RKSU-SUSFSv2.0.0
           config: vendor/lahaina-qgki_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
           ksu: false
           ksu-version: false
-          ksu-other: true
+          ksu-other: false
           ksu-url : https://github.com/sidex15/KernelSU-Next.git
           android-version: 16
           aosp-clang-version: false
