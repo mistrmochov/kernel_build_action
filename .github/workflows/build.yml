@@ -20,7 +20,7 @@ jobs:
           kernel-branch: RKSU-SUSFSv2.0.0
           config: vendor/lahaina-qgki_defconfig
           arch: arm64
-          aosp-gcc: false
+          aosp-gcc: true
           aosp-clang: false
           ksu: false
           ksu-version: false
